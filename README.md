@@ -3,6 +3,8 @@
 homepage: `http://127.0.0.1:8000/`
 [link](http://127.0.0.1:8000/)
 
+![homepage_img](https://raw.githubusercontent.com/chayandatta/BE_assignment/master/img/home.png)
+
 go to assignment/courses folder
 
 verify if the manage.py file is present there
