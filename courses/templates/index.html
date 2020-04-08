@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Courses</title>
+    <link crossorigin="anonymous"
+          href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.min.css"
+          integrity="sha256-8B1OaG0zT7uYA572S2xOxWACq9NXYPQ+U5kHPV1bJN4="
+          rel="stylesheet"/>
+    <link rel="shortcut icon" type="image/png" href="https://cdn4.iconfinder.com/data/icons/logos-brands-5/24/coursera-512.png"/>
+</head>
+<body>
+<nav aria-label="main navigation" class="navbar is-light" role="navigation">
+    <div class="navbar-brand">
+        <div class="navbar-item">
+            <img atl="Logo" src="https://cdn4.iconfinder.com/data/icons/logos-brands-5/24/coursera-512.png"
+                 style="margin-right: 0.5em;">All Courses
+        </div>
+    </div>
+</nav>
+    <table class="table is-fullwidth is-striped is-bordered">
+    <thead>
+    <tr>
+        <th>Course Name</th>
+        <th>Author Name</th>
+        <th>Price</th>
+    </tr>
+    </thead>
+    <tbody>
+    {% for c in obj %}
+    <tr>
+        <td>{{ c.course_name }}</td>
+        <td>{{ c.course_author_name }}</td>
+        <td>{{ c.price }}</td>
+    </tr>
+    {% endfor %}
+    </tbody>
+
+</table>
+</body>
+</html>
