@@ -19,3 +19,6 @@ Api to add course link : `http://127.0.0.1:8000/api/add_course`
 
 > Chayan Datta
 
+[Linkedin](https://www.linkedin.com/in/chayandatta/)
+[github](https://github.com/chayandatta)
+
